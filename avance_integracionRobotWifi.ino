@@ -3,12 +3,12 @@
 #define PORT 80
 
 //PUENTE H
-//Compilando con Wemos D1 R2 & Mini 
+//Compilando con Wemos D1 R2 & Mini:
 //const int AIA = D7;
 //const int BIB = D2;
 //const int BIA = D5;
 //const int AIB = D6;
-//Compilando con Wemos D1(retired)
+//Compilando con Wemos D1(retired):
 const int AIA = D7;
 const int AIB = D6;
 const int BIB = D4;
@@ -24,8 +24,8 @@ long distancia;
 long tiempo;
 //////////////
 
-const char* ssid = "mouse";
-const char* password = "0043603905";
+const char* ssid = "qwerty";//Modificar segun corresponda
+const char* password = "qwerty";//Modificar segun corresponda
 
 WiFiServer server(PORT);
 
